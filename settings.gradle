@@ -119,5 +119,5 @@ File extraProjects = new File(rootProject.projectDir.parentFile, "${rootProject.
 if (extraProjects.exists()) {
   for (File extraProjectDir : extraProjects.listFiles()) {
     addSubProjects('', extraProjectDir)
-  }
+  } 
 }
